@@ -2,6 +2,6 @@
 
 This is a project from The Odin Project: Fundamentals.
 
-I already did a static webpage but it wasn't responsive.
-
 Goal: Redo the Landing Page and make it responsive.
+
+Live Demo: https://geekone29.github.io/landing-page-2.0/
