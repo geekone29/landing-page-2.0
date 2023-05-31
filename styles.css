@@ -200,6 +200,12 @@ button {
     align-items: center;
     justify-content: center;
     background-image: url(./resources/background3.avif);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:top center;
 }
 
 .quote-content {
