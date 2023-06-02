@@ -142,8 +142,14 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgb(228, 228, 228);
     padding: 30px;
+    border-radius: 1rem;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: url(./resources/background2.jpg);
+    background-size: cover;
 }
 
 .shinobis {
@@ -273,18 +279,22 @@ footer img {
         top: 100%;
         right: -100%;
         width: 200px;
-        height: 40vh;
-        background: rgba(245, 120, 4, 0.877);
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 50px 20px;
         transition: all 0.55s ease;
+        backdrop-filter: blur(20px);
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.3);
     }
     .navlist a{
         display: block;
         margin: 7px 0;
         margin-left: 0;
+        color: #ff5100;
     }
     .navlist.open {
         right: 0;
